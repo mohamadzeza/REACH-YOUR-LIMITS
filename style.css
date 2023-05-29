@@ -1,0 +1,198 @@
+:root {
+    --red: #680404;
+    --white:white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier Prime', monospace;
+    font-family: 'Quantico', sans-serif;
+}
+
+main {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(14, 10, 10);
+}
+
+.buy {
+    width: 20px;
+}
+
+.ryl {
+    color: var(--red);
+    margin-top: 50px;
+}
+#btn{
+    border: .8px solid var(--white) ;
+    color: var(--white);
+}
+.flex-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.sit{
+    color: var(--red);
+    margin-top: 50px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.btn-play img{
+    width: 25px;
+    margin-right: 46px;
+}
+.huor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+.mr2{
+    color: var(--white);
+    margin-left: 14px;
+    margin-top: -14px;
+}
+
+.mr{
+    color: var(--white);
+}
+.h1{
+    margin-top: -14px;
+    margin-left: 14px;
+    border: 3px solid red;
+    width: 60px;
+    border-radius: 1px;
+}
+.h2{
+    
+    margin-top: -5px;
+    margin-left: 10px;
+    border: 3px solid red;
+    width: 80px;
+    border-radius: 1px;
+
+}
+.play{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    width: 20px;
+    margin-top: -10px;
+}
+.wh{
+    width: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    background-color: var(--red);
+    height:11.5vh;
+}
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+#nav2{
+    display: none;
+}
+@media only screen and (min-width:900px) {
+    main{
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    body{
+        background-image: url(./1171f1b5e8f73e019fe695227acd42b3.jfif);
+        background-size: 1500px;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    .text{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        position: relative;
+    }
+    .text::before{
+        content: "REACH YOUR LIMITS";
+        position: absolute;
+        font-size: 40px;
+        top: -7px;
+        color: rgba(128, 4, 4, 0.249);
+    }
+    .btn2 button{
+        width: 206px;
+        height: 60px;
+    }
+    .flex-text{
+        margin-top: 200px;
+    }
+    footer{
+        background-color: transparent;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    footer{
+        margin-top: 80px;
+        height: 100px;
+    }
+    .icone{
+        width: 30px;
+        margin-right: 20px;
+    }
+    #account{
+        width:100px;
+        height: 40px;
+        background-color: #680404;
+        border-radius: 10px;
+    }
+    
+   .btn-play img{
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    .huor{
+        margin-left: -20px;
+    }
+    .flex-footer{
+        margin-right: 10px;
+    }
+    #nav{
+        display: none;
+    }
+    #nav2{
+        display: flex;
+    }
+}
